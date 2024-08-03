@@ -1,0 +1,514 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+#head
+{
+    color: #bd02bd;
+    font-size: 3rem;
+    text-align: center;
+    font-weight:bold;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #ff66b2, #cc00cc);
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.trending .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    background: #ffe6f2;
+    padding: 20px 0;
+}
+
+.trending .carousel img {
+    width: 300px;
+    height: 400px;
+    margin: 0 10px;
+    scroll-snap-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.trending .carousel img:hover {
+    transform: scale(1.05);
+}
+
+.trending .winner {
+    margin-top: 20px;
+    background: #ff66b2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.trending .winner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trending .winner p {
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+button {
+    background: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #cc00cc;
+}
+
+
+.product {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.product .details {
+    flex: 1;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product .checked {
+    color: green;
+    font-weight: bold;
+}
+
+.product .sizes {
+    font-style: italic;
+}
+
+.product button {
+    background: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.product button:hover {
+    background: #cc00cc;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #5b4b8a; 
+    text-align: center;
+}
+
+.guide-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+.guide-step {
+    margin-bottom: 30px;
+}
+
+.guide-step h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.guide-step ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.guide-step li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+
+strong {
+    color: #d81b60; 
+}
+
+
+ol li::marker {
+    color: #d81b60; 
+    font-weight: bold;
+}
+
+
+.gallery-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.gallery-container h1, .gallery-container h2 {
+    color: #5b4b8a; 
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.entry-description {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.vote-button, .like-button, .comment-button, .share-button {
+    background-color: #d81b60; 
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+}
+
+.vote-button:hover, .like-button:hover, .comment-button:hover, .share-button:hover {
+    background-color: #c2185b;
+}
+
+.engagement-tools {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.engagement-tools button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.voting-criteria, .rewards-recognition {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.voting-criteria p, .rewards-recognition p {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #5b4b8a; 
+    text-align: center;
+}
+
+.gallery-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.gallery-container h1, .gallery-container h2 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #5b4b8a; 
+    text-align: center;
+}
+
+.gallery-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.gallery-container h1, .gallery-container h2 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.entry-description {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.vote-button, .like-button, .comment-button, .share-button {
+    background-color: #d81b60; 
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+}
+
+.vote-button:hover, .like-button:hover, .comment-button:hover, .share-button:hover {
+    background-color: #c2185b;
+}
+
+.engagement-tools {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.engagement-tools button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.vote-count, .like-count {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.comments-section {
+    padding: 10px;
+}
+
+.comments-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.comments-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comments-list li {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.voting-criteria, .rewards-recognition {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.voting-criteria p, .rewards-recognition p {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+
+.step {
+    margin-bottom: 20px;
+}
+
+
+.step-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.step-details {
+    margin-left: 20px;
+}
+
+
+.benefits {
+    margin-top: 30px;
+}
+
+
+.benefit-item {
+    margin-bottom: 10px;
+}
+
+
